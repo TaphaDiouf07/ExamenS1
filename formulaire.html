@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma page</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+<body>
+    <section>
+
+        <fieldset>
+            <legend>Information</legend>
+            <div class="main-container">
+                <div class="groupe-champ">
+                    <label class="titre" for="prénom">Prénom:</label>
+                    <input type="text" name="prénom" id="prénom">
+                </div>
+                <div class="groupe-champ">
+                    <label class="titre" for="Nom">Nom:</label>
+                    <input type="text" name="Nom" id="Nom">
+                </div>
+                <div class="groupe-champ">
+                    <label class="titre" for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="groupe-champ">
+                    <label class="titre" for="Password">Mot de Passe:</label>
+                    <input type="password" name="Password" id="Password">
+                </div>
+                <div>
+                    <button type="Submit">Submit</button>
+                </div>
+            </div>
+            <div>
+                <label>Professions</label>
+                <select>
+                    <option disabled>...Selectionne...</option>
+                    <option>Data Analyst</option>
+                    <option>Cybersecurity Engineer</option>
+                    <option>DevOps Engineer</option>
+                </select>
+            </div>
+            <div>
+                <label>Situation</label>
+            </div>
+            <div><input type="radio" name="Situation">Marié</input></div>
+            <div><input type="radio" name="Situation">Célibataire</label></div>
+            </form>
+        </fieldset>
+
+        <fieldset>
+            <legende>Compétences</legende>
+            <ul type="none">
+                <li><input type="checkbox" name="Competences" checked>Python</li>
+                <li><input type="checkbox" name="Competences">C/C++</li>
+                <li><input type="checkbox" name="Competences">javascript</li>
+                <li><input type="checkbox" name="Competences">HTML5</li>
+            </ul>
+
+            <button type="submit">Valider</button>
+        </fieldset>
+
+    </section>
+
+</body>
+
+</html>
